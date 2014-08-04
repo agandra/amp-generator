@@ -1,0 +1,23 @@
+{
+    "name": "agandra/amp-generator",
+    "description": "",
+    "authors": [
+        {
+            "name": "Adi Gandra",
+            "email": "agandra@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Agandra\\AmpGenerator": "src/"
+        },
+        "psr-4" : {
+            "AmpGenerator\\AmpGenerator\\Command\\": "src/commands/"
+        }
+    },
+    "minimum-stability": "stable"
+}
